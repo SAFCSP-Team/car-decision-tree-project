@@ -11,8 +11,7 @@ Ahmed is going to work on the metro, but his company decided to change the offic
 
 ## Implementation
 
-- You will be given a list of questions stored in an array.    
-- You should build a decision tree storing these questions.
+- You should build a decision tree storing the questions.
 - For each question, the user will answer (input) by either yes or no.
 - If the answer was no for any question, the program will print ("Don't buy the car").
 - If the answer was yes, the program should move to the next question until the last one.
