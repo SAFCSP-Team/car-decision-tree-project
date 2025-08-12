@@ -37,7 +37,6 @@ Buy a car
 
 ## Qualification to pass
 - [ ] The code should run successfully.
-- [ ] Completely define the `DecisionTree` class.
 - [ ] Completely define the `Main` class.
 - [ ] Run and test all the below test cases:
    
