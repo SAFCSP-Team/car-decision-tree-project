@@ -42,59 +42,30 @@ Buy a car
 - [ ] Run and test all the below test cases:
    
 - [ ] Test case 1.
-   
-      System: Do you like comedy movies?   
-      User: No 
-      System: Do you like action movies?   
-      User: Yes  
-      System: Do you like old movies (before 2000)?   
+
+      System: Do you have the car budget?   
       User: Yes   
-      
-      System:       
-      We recommend the following movie for you:   
-      movie name: The Matrix   
-      year: 1999   
-      genre: Action   
-      Rate: 8.7   
+      System: Do you need the car?
+      User: Yes   
+      System: Can you drive?
+      User: Yes
+      System: Do you have a driving license?
+      User: Yes
+      System:    
+      Buy a car
    
+      
 - [ ] Test case 2.
 
-      System: Do you like comedy movies?   
-      User: No 
-      System: Do you like action movies?   
-      User: No 
-      System: Do you like animated movies?   
+      System: Do you have the car budget?   
       User: Yes   
-      System: Do you like old movies (before 2000)?   
-      User: Yes 
-         
-      System:       
-      We recommend the following movie for you:   
-      movie name: The Lion King   
-      year: 1994      
-      genre: Animated   
-      Rate: 8.5  
-
-- [ ] Test case 3.
-
-      System: Do you like comedy movies?   
-      User: No 
-      System: Do you like action movies?   
-      User: No  
-      System: Do you like animated movies?    
-      User: No   
-      System: Do you like drama movies?   
+      System: Do you need the car?
       User: Yes   
-      System: Do you like old movies (before 2000)?   
-      User: No  
-         
-      System:       
-      We recommend the following movie for you:   
-      movie name: Oppenheimer   
-      year: 2023      
-      genre: Drama   
-      Rate: 8.3  
-
+      System: Can you drive?
+      User: No
+      System:    
+      Don't buy a car
+ 
 
 
 
