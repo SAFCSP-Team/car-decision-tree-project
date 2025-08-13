@@ -6,7 +6,7 @@ Using fundamental data structures and algorithms, solve real-world problems with
 
 
 ## Problem    
-Ahmed is going to work on the metro, but his company decided to change the office location, and unfortunately, the metro station is far away from the new office. Now he is thinking about buying, and a decision tree will help him to decide.
+Ahmed is going to work on the metro, but his company decided to change the office location, and unfortunately, the metro station is far away from the new office. Now he is thinking about buying a car, and a decision tree will help him to decide.
 
 
 ## Implementation
