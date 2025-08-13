@@ -6,13 +6,12 @@ Using fundamental data structures and algorithms, solve real-world problems with
 
 
 ## Problem    
-Ahmed is going to work on the metro, but his company decided to change the office location, and unfortunately, the metro station is far away from the new office. Now he is thinking about buying a car, and a decision tree will help him to decide.
-
+Ahmed is going to work on the metro, but his company decided to change the office location, and unfortunately, the metro station is far away from the new office. Now he is thinking about buying a car. Help him by building a decision tree to decide which car to buy.
 
 ## Implementation
 
 - You should build a decision tree storing the questions.
-- For each question, the user will answer (input) by either yes or no.
+- For each question, the user will answer (input) with either yes or no.
 - If the answer was no for any question, the program will print ("Don't buy the car").
 - If the answer was yes, the program should move to the next question until the last one.
 
