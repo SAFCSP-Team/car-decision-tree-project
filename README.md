@@ -40,7 +40,7 @@ Car cars [] =
 
             new Car(7, "Lamborghini Urus", 1200000, sport),
             new Car(8, "Chevrolet Corvette",  150000, sport),
-            new Car(9, "Toyota Elantra", 60000, sport),
+            new Car(9, "Dodge Charger", 60000, sport),
         };
 ```
 
@@ -70,6 +70,7 @@ This car fits your preferences and needs.
 Based on the user's answers, the recommended car should match the following properties,
 - Type: Sport
 - Price: 1200000.
+- Name: Lamborghini Urus.
 
 
 ## Qualification to pass
@@ -100,10 +101,6 @@ Based on the user's answers, the recommended car should match the following prop
 - [ ] Test case 2.
       
       System: Would you like the SEDAN car type?
-      User: No   
-      System: Would you like the SUV car type?
-      User: No   
-      System: Would you like the SPORTS car type?
       User: Yes   
       System: Are you willing to spend more than 60000?
       User: No   
@@ -115,26 +112,21 @@ Based on the user's answers, the recommended car should match the following prop
       This car fits your preferences and needs.
       
 - [ ] Test case 3.
-
-      System: Do you like comedy movies?   
-      User: No 
-      System: Do you like action movies?   
-      User: No  
-      System: Do you like animated movies?    
+      
+      System: Would you like the SEDAN car type?
       User: No   
-      System: Do you like drama movies?   
+      System: Would you like the SUV car type?
+      User: No   
+      System: Would you like the SPORTS car type?
       User: Yes   
-      System: Do you like old movies (before 2000)?   
-      User: No  
-         
-      System:       
-      We recommend the following movie for you:   
-      movie name: Oppenheimer   
-      year: 2023      
-      genre: Drama   
-      Rate: 8.3  
+      System: Are you willing to spend more than 60000?
+      User: No   
+      System:
 
-
+      We recommend
+      Car name: Dodge Charger
+      Price: 60,000 SAR
+      This car fits your preferences and needs.
 
 
 
