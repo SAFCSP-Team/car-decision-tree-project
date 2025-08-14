@@ -1,19 +1,20 @@
 public class Main {
 
-    Movie movies [] = 
+   Car cars [] = 
         { 
-            new Movie(1, "The matrix", 1999, 8.7, "action"),
-            new Movie(2, "The Dark Knight", 2008, 9, "action"),
-            new Movie(3, "Terminator 2: Judgment Day", 1991, 8.6, "action"),
+            new Car(1, "Toyota Elantra", 60000, sedan),
+            new Car(2, "Chevrolet Impala", 150000, sedan),
+            new Car(3, "Mercedes S Class", 1200000, sedan),
 
-            new Movie(4, "WALL·E", 2008, 8.4, "animation"),
-            new Movie(5, "The lion king", 1994, 8.5, "animation"),
 
-            new Movie(6, "Oppenheimer", 2023, 8.3, "drama"),
-            new Movie(7, "Taxi Driver", 1976, 8.2, "drama"),
+            new Car(4, "Kia Sportage", 150000, suv),
+            new Car(5, "Audi Q7", 1200000, suv),
+            new Car(6, "Toyota Rav4", 60000, suv),
 
-            new Movie(8, "Bad Boys: Ride or Die", 2024, 7.0, "comedy"),
-            new Movie(9, "Bad Boys", 1995, 6.8, "comedy"),
+
+            new Car(7, "Lamborghini Urus", 1200000, sport),
+            new Car(8, "Chevrolet Corvette",  150000, sport),
+            new Car(9, "Dodge Charger", 60000, sport),
         };
 
     public static void main(String[] args) {
