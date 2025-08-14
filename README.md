@@ -52,7 +52,7 @@ System: Would you like the SEDAN car type?
 User: No   
 System: Would you like the SUV car type?
 User: No   
-System: Would you like the SPORT car type?
+System: Would you like the SPORTS car type?
 User: Yes   
 System: Are you willing to spend more than 60000?
 User: Yes   
@@ -62,21 +62,14 @@ System:
 
 We recommend
 Car name: Lamborghini Urus
-Price: 1200000SAR
-This car fits your prefrences and needs.
-
-
-
-
+Price: 1,200,000 SAR
+This car fits your preferences and needs.
 
 ```  
 
-Based on the user's answers, the recommended movie should match the following properties,
-- Genre: action movie.
-- Year: before 2000.
-
-When searching for a movie with the above properties, The system will pick the most rated movie.   
-
+Based on the user's answers, the recommended car should match the following properties,
+- Type: Sport
+- Price: 1200000.
 
 
 ## Qualification to pass
@@ -86,39 +79,41 @@ When searching for a movie with the above properties, The system will pick the m
 - [ ] Run and test all the below test cases:
    
 - [ ] Test case 1.
-   
-      System: Do you like comedy movies?   
-      User: No 
-      System: Do you like action movies?   
-      User: Yes  
-      System: Do you like old movies (before 2000)?   
+
+      System: Would you like the SEDAN car type?
+      User: No   
+      System: Would you like the SUV car type?
+      User: No   
+      System: Would you like the SPORTS car type?
       User: Yes   
-      
-      System:       
-      We recommend the following movie for you:   
-      movie name: The Matrix   
-      year: 1999   
-      genre: Action   
-      Rate: 8.7   
-   
+      System: Are you willing to spend more than 60000?
+      User: Yes   
+      System: Are you willing to spend more than 150000?
+      User: Yes
+      System:
+
+      We recommend
+      Car name: Lamborghini Urus
+      Price: 1,200,000 SAR
+      This car fits your preferences and needs.
+    
 - [ ] Test case 2.
-
-      System: Do you like comedy movies?   
-      User: No 
-      System: Do you like action movies?   
-      User: No 
-      System: Do you like animated movies?   
+      
+      System: Would you like the SEDAN car type?
+      User: No   
+      System: Would you like the SUV car type?
+      User: No   
+      System: Would you like the SPORTS car type?
       User: Yes   
-      System: Do you like old movies (before 2000)?   
-      User: Yes 
-         
-      System:       
-      We recommend the following movie for you:   
-      movie name: The Lion King   
-      year: 1994      
-      genre: Animated   
-      Rate: 8.5  
+      System: Are you willing to spend more than 60000?
+      User: No   
+      System:
 
+      We recommend
+      Car name: Toyota Elantra
+      Price: 60,000 SAR
+      This car fits your preferences and needs.
+      
 - [ ] Test case 3.
 
       System: Do you like comedy movies?   
