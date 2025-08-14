@@ -10,71 +10,14 @@ Ahmed is going to work on the metro, but his company decided to change the offic
 
 ## Implementation
 
-- You should build a decision tree storing the questions.
-- For each question, the user will answer (input) with either yes or no.
-- If the answer was no for any question, the program will print ("Don't buy the car").
-- If the answer was yes, the program should move to the next question until the last one.
-
-
-### Run time example
-
-```OUTPUT
-System: Do you have the car budget?   
-User: Yes   
-System: Do you need the car?
-User: Yes   
-System: Can you drive?
-User: Yes
-System: Do you have a driving license?
-User: Yes
-System:    
-Buy a car
-```  
-
-
-
-## Qualification to pass
-- [ ] The code should run successfully.
-- [ ] Completely define the `Main` class.
-- [ ] Run and test all the below test cases:
-   
-- [ ] Test case 1.
-
-      System: Do you have the car budget?   
-      User: Yes   
-      System: Do you need the car?
-      User: Yes   
-      System: Can you drive?
-      User: Yes
-      System: Do you have a driving license?
-      User: Yes
-      System:    
-      Buy a car
-   
-      
-- [ ] Test case 2.
-
-      System: Do you have the car budget?   
-      User: Yes   
-      System: Do you need the car?
-      User: Yes   
-      System: Can you drive?
-      User: No
-      System:    
-      Don't buy a car
- 
-
-
-
-
 - You will be given a list of `cars` stored in an array.    
 - A `car` will have the following properties:   
-  `id`, `name`, `price`, `year`.
-- You can find the `car` list in the `Main.java` class.  
+  `id`, `name`, `price`, `type`.
+- You can find the `cars` list in the `Main.java` class.  
 
 ## Implementation
    
-- Build a decision tree with questions that help to decide which type of car the user should buy.
+- Build a decision tree with questions that help to decide which car the user should buy.
 - The decision tree should store **Yes** or **No** questions.
 - Read the cars from the array.
 - Based on the user's answers, the system should recommend a car that meets the user's needs and preferences.
@@ -85,18 +28,19 @@ Buy a car
 ```
 Car cars [] = 
         { 
-            new Car(1, "Chevrolet Impala", 1999, 8.7, "action"),
-            new Car(2, "Toyota Elantra", 2008, 9, "action"),
-            new Car(3, "Terminator 2: Judgment Day", 1991, 8.6, "action"),
+            new Car(1, "Toyota Elantra", 60000, sedan),
+            new Car(2, "Chevrolet Impala", 150000, sedan),
+            new Car(3, "Mercedes S Class", 1200000, sedan),
 
-            new Car(4, "WALL·E", 2008, 8.4, "animation"),
-            new Car(5, "The lion king", 1994, 8.5, "animation"),
 
-            new Car(6, "Oppenheimer", 2023, 8.3, "drama"),
-            new Car(7, "Taxi Driver", 1976, 8.2, "drama"),
+            new Car(4, "Kia Sportage", 150000, suv),
+            new Car(5, "Audi Q7", 1200000, suv),
+            new Car(6, "Toyota Rav4", 60000, suv),
 
-            new Car(8, "Bad Boys: Ride or Die", 2024, 7.0, "comedy"),
-            new Car(9, "Bad Boys", 1995, 6.8, "comedy"),
+
+            new Car(7, "Lamborghini Urus", 1200000, sport),
+            new Car(8, "Chevrolet Corvette",  150000, sport),
+            new Car(9, "Toyota Elantra", 60000, sport),
         };
 ```
 
@@ -104,18 +48,27 @@ Car cars [] =
 ### Run time example
 
 ```OUTPUT
-System: Do you like comedy movies?   
+System: Would you like the SEDAN car type?
 User: No   
-System: Do you like action movies?   
+System: Would you like the SUV car type?
+User: No   
+System: Would you like the SPORT car type?
 User: Yes   
-System: Do you like old movies (before 2000)?   
+System: Are you willing to spend more than 60000?
 User: Yes   
-System:    
-We recommend the following movie for you:   
-Movie name: The Matrix   
-Year: 1999   
-genre: Action   
-Rate: 8.7
+System: Are you willing to spend more than 150000?
+User: Yes
+System:
+
+We recommend
+Car name: Lamborghini Urus
+Price: 1200000SAR
+This car fits your prefrences and needs.
+
+
+
+
+
 ```  
 
 Based on the user's answers, the recommended movie should match the following properties,
