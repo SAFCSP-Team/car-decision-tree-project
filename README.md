@@ -8,7 +8,6 @@ Using fundamental data structures and algorithms, solve real-world problems with
 ## Problem    
 Ahmed is going to work on the metro, but his company decided to change the office location, and unfortunately, the metro station is far away from the new office. Now he is thinking about buying a car. Help him by building a decision tree to decide which car to buy.
 
-## Implementation
 
 - You will be given a list of `cars` stored in an array.    
 - A `car` will have the following properties:   
