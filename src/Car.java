@@ -2,15 +2,14 @@ public class Car {
 
     int id;
     String name;
-    int price;
+    double price;
     String type;
 
-    Movie(int id, String name, int year, double rate, String genre){
+    Car(int id, String name, double price, String type){
         this.id = id;
         this.name = name;
-        this.year = year;
-        this.rate = rate;
-        this.genre = genre;
+        this.price = price;
+        this.type = type;
     }
     
 }
